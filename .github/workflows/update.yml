@@ -43,5 +43,12 @@ jobs:
             echo "Sin cambios en los datos."
           else
             git commit -m "chore: actualizar datos LoL [skip ci]"
-            git push
+            # Si el remoto avanzó entre checkout y push, rebasear (preferir
+            # nuestros datos recién bajados) y reintentar hasta 3 veces.
+            for i in 1 2 3; do
+              git pull --rebase -X theirs --autostash origin main \
+                && git push && { echo "push OK"; break; }
+              echo "push rechazado, reintento $i..."
+              sleep 4
+            done
           fi
