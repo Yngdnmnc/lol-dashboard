@@ -2,8 +2,12 @@ name: Actualizar datos LoL
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # cada 30 minutos (UTC)
-  workflow_dispatch:          # botón para correr manualmente
+    # Cada 20 min entre las 17:00 y 22:00 de Argentina (LAS, UTC-3) = 20:00-01:00 UTC.
+    # GitHub Actions usa UTC. Los crons pueden retrasarse unos minutos con carga alta.
+    - cron: "0,20,40 20-23 * * *"   # ART 17:00 - 20:40
+    - cron: "0,20,40 0 * * *"       # ART 21:00 - 21:40
+    - cron: "0 1 * * *"             # ART 22:00
+  workflow_dispatch:          # "Run workflow" para forzar una actualización manual
   push:
     branches: [ main ]
     paths: [ "data/players.json" ]  # re-fetch si cambiás la config

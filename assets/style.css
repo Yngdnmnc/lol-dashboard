@@ -45,7 +45,18 @@ header {
   display: grid; place-items: center; font-weight: 800; font-size: 18px;
 }
 .spacer { flex: 1; }
-.updated { color: var(--muted); font-size: 12px; }
+.updated { color: var(--muted); font-size: 12px; width: 100%; text-align: right; margin-top: 2px; }
+
+.toolbar { display: flex; gap: 8px; align-items: center; }
+.tool-btn {
+  border: 1px solid var(--border); background: var(--card-2); color: var(--text);
+  padding: 8px 14px; border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 600;
+  text-decoration: none; display: inline-flex; align-items: center; gap: 6px; transition: .15s;
+}
+.tool-btn:hover:not(:disabled) { border-color: var(--accent); background: var(--card); }
+.tool-btn:disabled { opacity: .6; cursor: default; }
+.tool-btn.ghost { background: transparent; color: var(--muted); }
+.tool-btn.ghost:hover { color: var(--text); border-color: var(--accent); }
 
 /* ---------- Player selector ---------- */
 .player-switch { display: flex; gap: 8px; background: var(--bg-2); padding: 5px; border-radius: 999px; border: 1px solid var(--border); }

@@ -29,23 +29,22 @@ let lpTotalChart = null;
 let lpGamesChart = null;
 
 /* ---------- carga ---------- */
+async function loadData() {
+  const cfg = await fetchJSON("data/players.json");
+  State.meta = cfg.meta || {};
+  State.players = cfg.players || [];
+  try { State.meta = { ...State.meta, ...(await fetchJSON("data/meta.json")) }; } catch (e) {}
+  if (State.meta.mock) document.getElementById("mockBanner").classList.remove("hide");
+  State.data = {};
+  for (const p of State.players) {
+    try { State.data[p.id] = await fetchJSON(`data/${p.id}.json`); }
+    catch (e) { console.warn(`Sin datos para ${p.id}`, e); }
+  }
+}
+
 async function boot() {
   try {
-    const cfg = await fetchJSON("data/players.json");
-    State.meta = cfg.meta || {};
-    State.players = cfg.players || [];
-
-    // cargar meta.json (versión ddragon) si existe
-    try { State.meta = { ...State.meta, ...(await fetchJSON("data/meta.json")) }; } catch (e) {}
-
-    if (State.meta.mock) document.getElementById("mockBanner").classList.remove("hide");
-
-    // cargar data de cada player
-    for (const p of State.players) {
-      try { State.data[p.id] = await fetchJSON(`data/${p.id}.json`); }
-      catch (e) { console.warn(`Sin datos para ${p.id}`, e); }
-    }
-
+    await loadData();
     State.currentPlayer = State.players.find(p => State.data[p.id])?.id || State.players[0]?.id;
     renderPlayerSwitch();
     renderUpdated();
@@ -54,6 +53,27 @@ async function boot() {
   } catch (e) {
     document.getElementById("matchList").innerHTML =
       `<div class="empty">No se pudo cargar la config. ¿Existe <code>data/players.json</code>?<br><small>${e}</small></div>`;
+  }
+}
+
+/* Recarga los datos ya publicados (los que dejó el último cron) sin recargar la página. */
+async function refreshData() {
+  const btn = document.getElementById("refreshBtn");
+  const prev = btn.innerHTML;
+  btn.disabled = true;
+  btn.innerHTML = "Actualizando…";
+  try {
+    await loadData();
+    if (!State.data[State.currentPlayer])
+      State.currentPlayer = State.players.find(p => State.data[p.id])?.id || State.players[0]?.id;
+    renderPlayerSwitch();
+    renderUpdated();
+    renderAll();
+  } catch (e) {
+    console.warn("refresh falló", e);
+  } finally {
+    btn.disabled = false;
+    btn.innerHTML = prev;
   }
 }
 
@@ -485,6 +505,7 @@ function wireControls() {
     const aggs = championAggregates(State.data[State.currentPlayer].matches || []);
     renderChampStats(aggs.find(a => a.champion === State.champSelected));
   };
+  document.getElementById("refreshBtn").onclick = refreshData;
 }
 
 /* ---------- utils ---------- */
