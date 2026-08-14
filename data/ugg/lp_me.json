@@ -1,0 +1,2230 @@
+{
+    "data": {
+        "fetchPlayerLpTimeline": [
+            {
+                "__typename": "LpStat",
+                "lpTrack": [
+                    {
+                        "__typename": "LpStatus",
+                        "championId": null,
+                        "lp": null,
+                        "matchId": null,
+                        "rank": null,
+                        "score": 0,
+                        "tier": null
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 157,
+                        "lp": null,
+                        "matchId": 1567984137,
+                        "rank": null,
+                        "score": null,
+                        "tier": null
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": null,
+                        "matchId": 1568148155,
+                        "rank": null,
+                        "score": null,
+                        "tier": null
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 157,
+                        "lp": null,
+                        "matchId": 1568214883,
+                        "rank": null,
+                        "score": null,
+                        "tier": null
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 157,
+                        "lp": null,
+                        "matchId": 1568220997,
+                        "rank": null,
+                        "score": null,
+                        "tier": null
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 8,
+                        "lp": null,
+                        "matchId": 1568236062,
+                        "rank": null,
+                        "score": null,
+                        "tier": null
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 157,
+                        "lp": 75,
+                        "matchId": 1568247898,
+                        "rank": "II",
+                        "score": 675,
+                        "tier": "BRONZE"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 157,
+                        "lp": 65,
+                        "matchId": 1568267214,
+                        "rank": "II",
+                        "score": 665,
+                        "tier": "BRONZE"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 18,
+                        "lp": 55,
+                        "matchId": 1568276210,
+                        "rank": "II",
+                        "score": 655,
+                        "tier": "BRONZE"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 18,
+                        "lp": 45,
+                        "matchId": 1568333951,
+                        "rank": "II",
+                        "score": 645,
+                        "tier": "BRONZE"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 75,
+                        "matchId": 1568352895,
+                        "rank": "II",
+                        "score": 675,
+                        "tier": "BRONZE"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 5,
+                        "matchId": 1568370498,
+                        "rank": "I",
+                        "score": 705,
+                        "tier": "BRONZE"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 35,
+                        "matchId": 1568384120,
+                        "rank": "I",
+                        "score": 735,
+                        "tier": "BRONZE"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 18,
+                        "lp": 25,
+                        "matchId": 1568482382,
+                        "rank": "I",
+                        "score": 725,
+                        "tier": "BRONZE"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 55,
+                        "matchId": 1568499865,
+                        "rank": "I",
+                        "score": 755,
+                        "tier": "BRONZE"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 45,
+                        "matchId": 1568511674,
+                        "rank": "I",
+                        "score": 745,
+                        "tier": "BRONZE"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 8,
+                        "lp": 75,
+                        "matchId": 1568524836,
+                        "rank": "I",
+                        "score": 775,
+                        "tier": "BRONZE"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 32,
+                        "lp": 5,
+                        "matchId": 1568534775,
+                        "rank": "IV",
+                        "score": 805,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 0,
+                        "matchId": 1568559868,
+                        "rank": "IV",
+                        "score": 800,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 8,
+                        "lp": 30,
+                        "matchId": 1568586617,
+                        "rank": "IV",
+                        "score": 830,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 5,
+                        "matchId": 1568593139,
+                        "rank": "IV",
+                        "score": 805,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 18,
+                        "lp": 35,
+                        "matchId": 1568647160,
+                        "rank": "IV",
+                        "score": 835,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 65,
+                        "matchId": 1569028737,
+                        "rank": "IV",
+                        "score": 865,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 18,
+                        "lp": 95,
+                        "matchId": 1569045253,
+                        "rank": "IV",
+                        "score": 895,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 80,
+                        "matchId": 1569419343,
+                        "rank": "IV",
+                        "score": 880,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 104,
+                        "lp": 9,
+                        "matchId": 1573232055,
+                        "rank": "III",
+                        "score": 909,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 104,
+                        "lp": 39,
+                        "matchId": 1573532211,
+                        "rank": "III",
+                        "score": 939,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 104,
+                        "lp": 24,
+                        "matchId": 1573800169,
+                        "rank": "III",
+                        "score": 924,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 104,
+                        "lp": 13,
+                        "matchId": 1573810830,
+                        "rank": "III",
+                        "score": 913,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 18,
+                        "lp": 1,
+                        "matchId": 1573821942,
+                        "rank": "III",
+                        "score": 901,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 104,
+                        "lp": 29,
+                        "matchId": 1574101651,
+                        "rank": "III",
+                        "score": 929,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 104,
+                        "lp": 57,
+                        "matchId": 1574984763,
+                        "rank": "III",
+                        "score": 957,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 32,
+                        "lp": 85,
+                        "matchId": 1575000705,
+                        "rank": "III",
+                        "score": 985,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 32,
+                        "lp": 13,
+                        "matchId": 1575159676,
+                        "rank": "II",
+                        "score": 1013,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 104,
+                        "lp": 42,
+                        "matchId": 1575943261,
+                        "rank": "II",
+                        "score": 1042,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 104,
+                        "lp": 42,
+                        "matchId": 1576124117,
+                        "rank": "II",
+                        "score": 1042,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 32,
+                        "lp": 42,
+                        "matchId": 1576135376,
+                        "rank": "II",
+                        "score": 1042,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 32,
+                        "lp": 86,
+                        "matchId": 1577226667,
+                        "rank": "II",
+                        "score": 1086,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 32,
+                        "lp": 74,
+                        "matchId": 1577243628,
+                        "rank": "II",
+                        "score": 1074,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 104,
+                        "lp": 62,
+                        "matchId": 1577349025,
+                        "rank": "II",
+                        "score": 1062,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 8,
+                        "lp": 49,
+                        "matchId": 1577362217,
+                        "rank": "II",
+                        "score": 1049,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 32,
+                        "lp": 35,
+                        "matchId": 1579733116,
+                        "rank": "II",
+                        "score": 1035,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 104,
+                        "lp": 35,
+                        "matchId": 1580539279,
+                        "rank": "II",
+                        "score": 1035,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 777,
+                        "lp": 35,
+                        "matchId": 1580555785,
+                        "rank": "II",
+                        "score": 1035,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 235,
+                        "lp": 35,
+                        "matchId": 1580806153,
+                        "rank": "II",
+                        "score": 1035,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 777,
+                        "lp": 35,
+                        "matchId": 1580832860,
+                        "rank": "II",
+                        "score": 1035,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 777,
+                        "lp": 35,
+                        "matchId": 1581051372,
+                        "rank": "II",
+                        "score": 1035,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 35,
+                        "matchId": 1581071872,
+                        "rank": "II",
+                        "score": 1035,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 22,
+                        "lp": 35,
+                        "matchId": 1581085481,
+                        "rank": "II",
+                        "score": 1035,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 22,
+                        "lp": 35,
+                        "matchId": 1581108737,
+                        "rank": "II",
+                        "score": 1035,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 35,
+                        "matchId": 1581313834,
+                        "rank": "II",
+                        "score": 1035,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 13,
+                        "lp": 35,
+                        "matchId": 1581370752,
+                        "rank": "II",
+                        "score": 1035,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 157,
+                        "lp": 35,
+                        "matchId": 1581382884,
+                        "rank": "II",
+                        "score": 1035,
+                        "tier": "SILVER"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 69,
+                        "lp": 1,
+                        "matchId": 1583264275,
+                        "rank": "IV",
+                        "score": 1201,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 0,
+                        "matchId": 1583272798,
+                        "rank": "IV",
+                        "score": 1200,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 103,
+                        "lp": 0,
+                        "matchId": 1583790556,
+                        "rank": "IV",
+                        "score": 1200,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 150,
+                        "lp": 23,
+                        "matchId": 1583889713,
+                        "rank": "IV",
+                        "score": 1223,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 150,
+                        "lp": 23,
+                        "matchId": 1584030009,
+                        "rank": "IV",
+                        "score": 1223,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 40,
+                        "matchId": 1584037022,
+                        "rank": "IV",
+                        "score": 1240,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 32,
+                        "lp": 22,
+                        "matchId": 1584105947,
+                        "rank": "IV",
+                        "score": 1222,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 98,
+                        "lp": 44,
+                        "matchId": 1585242386,
+                        "rank": "IV",
+                        "score": 1244,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 66,
+                        "matchId": 1585711941,
+                        "rank": "IV",
+                        "score": 1266,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 48,
+                        "matchId": 1585722389,
+                        "rank": "IV",
+                        "score": 1248,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 70,
+                        "matchId": 1585964196,
+                        "rank": "IV",
+                        "score": 1270,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 875,
+                        "lp": 65,
+                        "matchId": 1589572232,
+                        "rank": "IV",
+                        "score": 1265,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 875,
+                        "lp": 65,
+                        "matchId": 1589779203,
+                        "rank": "IV",
+                        "score": 1265,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 65,
+                        "matchId": 1589789155,
+                        "rank": "IV",
+                        "score": 1265,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 14,
+                        "lp": 65,
+                        "matchId": 1589805935,
+                        "rank": "IV",
+                        "score": 1265,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 22,
+                        "lp": 65,
+                        "matchId": 1590270351,
+                        "rank": "IV",
+                        "score": 1265,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 65,
+                        "matchId": 1590278116,
+                        "rank": "IV",
+                        "score": 1265,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 65,
+                        "matchId": 1591314742,
+                        "rank": "IV",
+                        "score": 1265,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 65,
+                        "matchId": 1591326372,
+                        "rank": "IV",
+                        "score": 1265,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 65,
+                        "matchId": 1591336992,
+                        "rank": "IV",
+                        "score": 1265,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 6,
+                        "matchId": 1591346815,
+                        "rank": "III",
+                        "score": 1306,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 87,
+                        "matchId": 1591562219,
+                        "rank": "IV",
+                        "score": 1287,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 68,
+                        "matchId": 1593190465,
+                        "rank": "IV",
+                        "score": 1268,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 83,
+                        "lp": 89,
+                        "matchId": 1593204497,
+                        "rank": "IV",
+                        "score": 1289,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 83,
+                        "lp": 10,
+                        "matchId": 1593218062,
+                        "rank": "III",
+                        "score": 1310,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 83,
+                        "lp": 91,
+                        "matchId": 1593436672,
+                        "rank": "IV",
+                        "score": 1291,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 12,
+                        "matchId": 1593453667,
+                        "rank": "III",
+                        "score": 1312,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 83,
+                        "lp": 33,
+                        "matchId": 1593465047,
+                        "rank": "III",
+                        "score": 1333,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 83,
+                        "lp": 54,
+                        "matchId": 1593674317,
+                        "rank": "III",
+                        "score": 1354,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 83,
+                        "lp": 35,
+                        "matchId": 1593684178,
+                        "rank": "III",
+                        "score": 1335,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 83,
+                        "lp": 16,
+                        "matchId": 1593711991,
+                        "rank": "III",
+                        "score": 1316,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 83,
+                        "lp": 16,
+                        "matchId": 1593938449,
+                        "rank": "III",
+                        "score": 1316,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 83,
+                        "lp": 16,
+                        "matchId": 1593950163,
+                        "rank": "III",
+                        "score": 1316,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 99,
+                        "matchId": 1593956988,
+                        "rank": "IV",
+                        "score": 1299,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 117,
+                        "lp": 20,
+                        "matchId": 1596228409,
+                        "rank": "III",
+                        "score": 1320,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 41,
+                        "matchId": 1596241053,
+                        "rank": "III",
+                        "score": 1341,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 117,
+                        "lp": 62,
+                        "matchId": 1596449545,
+                        "rank": "III",
+                        "score": 1362,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 117,
+                        "lp": 83,
+                        "matchId": 1596460886,
+                        "rank": "III",
+                        "score": 1383,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 235,
+                        "lp": 64,
+                        "matchId": 1596468967,
+                        "rank": "III",
+                        "score": 1364,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 85,
+                        "matchId": 1596480509,
+                        "rank": "III",
+                        "score": 1385,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 6,
+                        "matchId": 1596689934,
+                        "rank": "II",
+                        "score": 1406,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 27,
+                        "matchId": 1602994251,
+                        "rank": "II",
+                        "score": 1427,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 48,
+                        "matchId": 1604482184,
+                        "rank": "II",
+                        "score": 1448,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 147,
+                        "lp": 48,
+                        "matchId": 1604934097,
+                        "rank": "II",
+                        "score": 1448,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 69,
+                        "matchId": 1605185637,
+                        "rank": "II",
+                        "score": 1469,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 90,
+                        "matchId": 1615298867,
+                        "rank": "II",
+                        "score": 1490,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 11,
+                        "matchId": 1615334150,
+                        "rank": "I",
+                        "score": 1511,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 92,
+                        "matchId": 1615554038,
+                        "rank": "II",
+                        "score": 1492,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 13,
+                        "matchId": 1616063525,
+                        "rank": "I",
+                        "score": 1513,
+                        "tier": "GOLD"
+                    }
+                ]
+            },
+            {
+                "__typename": "LpStat",
+                "lpTrack": [
+                    {
+                        "__typename": "LpStatus",
+                        "championId": null,
+                        "lp": null,
+                        "matchId": null,
+                        "rank": null,
+                        "score": 0,
+                        "tier": null
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 32,
+                        "lp": null,
+                        "matchId": 1575383215,
+                        "rank": null,
+                        "score": null,
+                        "tier": null
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 235,
+                        "lp": null,
+                        "matchId": 1575391411,
+                        "rank": null,
+                        "score": null,
+                        "tier": null
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 32,
+                        "lp": null,
+                        "matchId": 1578641224,
+                        "rank": null,
+                        "score": null,
+                        "tier": null
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 32,
+                        "lp": null,
+                        "matchId": 1578654703,
+                        "rank": null,
+                        "score": null,
+                        "tier": null
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 104,
+                        "lp": null,
+                        "matchId": 1579747751,
+                        "rank": null,
+                        "score": null,
+                        "tier": null
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 32,
+                        "lp": 45,
+                        "matchId": 1579761528,
+                        "rank": "IV",
+                        "score": 1245,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 70,
+                        "matchId": 1579996163,
+                        "rank": "IV",
+                        "score": 1270,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 32,
+                        "lp": 95,
+                        "matchId": 1580011706,
+                        "rank": "IV",
+                        "score": 1295,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 32,
+                        "lp": 80,
+                        "matchId": 1580036713,
+                        "rank": "IV",
+                        "score": 1280,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 80,
+                        "matchId": 1580777518,
+                        "rank": "IV",
+                        "score": 1280,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 69,
+                        "lp": 80,
+                        "matchId": 1581940321,
+                        "rank": "IV",
+                        "score": 1280,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 13,
+                        "lp": 80,
+                        "matchId": 1581951488,
+                        "rank": "IV",
+                        "score": 1280,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 150,
+                        "lp": 80,
+                        "matchId": 1582691578,
+                        "rank": "IV",
+                        "score": 1280,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 13,
+                        "lp": 4,
+                        "matchId": 1582701851,
+                        "rank": "III",
+                        "score": 1304,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 13,
+                        "lp": 4,
+                        "matchId": 1583544656,
+                        "rank": "III",
+                        "score": 1304,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 157,
+                        "lp": 4,
+                        "matchId": 1583559293,
+                        "rank": "III",
+                        "score": 1304,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 103,
+                        "lp": 33,
+                        "matchId": 1583598666,
+                        "rank": "III",
+                        "score": 1333,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 157,
+                        "lp": 33,
+                        "matchId": 1583805762,
+                        "rank": "III",
+                        "score": 1333,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 3,
+                        "lp": 33,
+                        "matchId": 1583817200,
+                        "rank": "III",
+                        "score": 1333,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 150,
+                        "lp": 33,
+                        "matchId": 1583857128,
+                        "rank": "III",
+                        "score": 1333,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 150,
+                        "lp": 5,
+                        "matchId": 1584934238,
+                        "rank": "III",
+                        "score": 1305,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 150,
+                        "lp": 5,
+                        "matchId": 1585208883,
+                        "rank": "III",
+                        "score": 1305,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 150,
+                        "lp": 5,
+                        "matchId": 1585220536,
+                        "rank": "III",
+                        "score": 1305,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 5,
+                        "matchId": 1588498261,
+                        "rank": "III",
+                        "score": 1305,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 83,
+                        "lp": 5,
+                        "matchId": 1588505959,
+                        "rank": "III",
+                        "score": 1305,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 83,
+                        "lp": 5,
+                        "matchId": 1589278997,
+                        "rank": "III",
+                        "score": 1305,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 5,
+                        "matchId": 1589290396,
+                        "rank": "III",
+                        "score": 1305,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 5,
+                        "matchId": 1589323011,
+                        "rank": "III",
+                        "score": 1305,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 5,
+                        "matchId": 1589999792,
+                        "rank": "III",
+                        "score": 1305,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 59,
+                        "lp": 5,
+                        "matchId": 1590007937,
+                        "rank": "III",
+                        "score": 1305,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 59,
+                        "lp": 5,
+                        "matchId": 1590017754,
+                        "rank": "III",
+                        "score": 1305,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 5,
+                        "matchId": 1590025193,
+                        "rank": "III",
+                        "score": 1305,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 18,
+                        "lp": 5,
+                        "matchId": 1591082447,
+                        "rank": "III",
+                        "score": 1305,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 5,
+                        "matchId": 1591090843,
+                        "rank": "III",
+                        "score": 1305,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 83,
+                        "lp": 5,
+                        "matchId": 1591112161,
+                        "rank": "III",
+                        "score": 1305,
+                        "tier": "GOLD"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 27,
+                        "matchId": 1591868065,
+                        "rank": "IV",
+                        "score": 1627,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 10,
+                        "matchId": 1591880727,
+                        "rank": "IV",
+                        "score": 1610,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 875,
+                        "lp": 0,
+                        "matchId": 1592485579,
+                        "rank": "IV",
+                        "score": 1600,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 0,
+                        "matchId": 1592499978,
+                        "rank": "IV",
+                        "score": 1600,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 0,
+                        "matchId": 1592519642,
+                        "rank": "IV",
+                        "score": 1600,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 83,
+                        "lp": 20,
+                        "matchId": 1592743718,
+                        "rank": "IV",
+                        "score": 1620,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 20,
+                        "matchId": 1594452949,
+                        "rank": "IV",
+                        "score": 1620,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 20,
+                        "matchId": 1594466407,
+                        "rank": "IV",
+                        "score": 1620,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 83,
+                        "matchId": 1594475619,
+                        "rank": "IV",
+                        "score": 1683,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 5,
+                        "matchId": 1594487750,
+                        "rank": "III",
+                        "score": 1705,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 87,
+                        "matchId": 1594705165,
+                        "rank": "IV",
+                        "score": 1687,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 68,
+                        "matchId": 1594718354,
+                        "rank": "IV",
+                        "score": 1668,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 161,
+                        "lp": 89,
+                        "matchId": 1594727673,
+                        "rank": "IV",
+                        "score": 1689,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 147,
+                        "lp": 11,
+                        "matchId": 1594950885,
+                        "rank": "III",
+                        "score": 1711,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 147,
+                        "lp": 33,
+                        "matchId": 1594966115,
+                        "rank": "III",
+                        "score": 1733,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 147,
+                        "lp": 15,
+                        "matchId": 1594977628,
+                        "rank": "III",
+                        "score": 1715,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 147,
+                        "lp": 15,
+                        "matchId": 1595417391,
+                        "rank": "III",
+                        "score": 1715,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 15,
+                        "matchId": 1595426908,
+                        "rank": "III",
+                        "score": 1715,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 89,
+                        "lp": 1,
+                        "matchId": 1595439923,
+                        "rank": "III",
+                        "score": 1701,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 82,
+                        "matchId": 1596213852,
+                        "rank": "IV",
+                        "score": 1682,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 432,
+                        "lp": 63,
+                        "matchId": 1596697789,
+                        "rank": "IV",
+                        "score": 1663,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 43,
+                        "matchId": 1596713052,
+                        "rank": "IV",
+                        "score": 1643,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 497,
+                        "lp": 43,
+                        "matchId": 1596930544,
+                        "rank": "IV",
+                        "score": 1643,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 201,
+                        "lp": 43,
+                        "matchId": 1596941401,
+                        "rank": "IV",
+                        "score": 1643,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 161,
+                        "lp": 5,
+                        "matchId": 1596952927,
+                        "rank": "III",
+                        "score": 1705,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 26,
+                        "matchId": 1597453819,
+                        "rank": "III",
+                        "score": 1726,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 48,
+                        "matchId": 1597464154,
+                        "rank": "III",
+                        "score": 1748,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 30,
+                        "matchId": 1597473095,
+                        "rank": "III",
+                        "score": 1730,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 24,
+                        "lp": 12,
+                        "matchId": 1597967810,
+                        "rank": "III",
+                        "score": 1712,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 93,
+                        "matchId": 1597981292,
+                        "rank": "IV",
+                        "score": 1693,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 14,
+                        "matchId": 1598203619,
+                        "rank": "III",
+                        "score": 1714,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 95,
+                        "matchId": 1598215531,
+                        "rank": "IV",
+                        "score": 1695,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 85,
+                        "lp": 16,
+                        "matchId": 1598423492,
+                        "rank": "III",
+                        "score": 1716,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 19,
+                        "matchId": 1599142181,
+                        "rank": "III",
+                        "score": 1719,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 75,
+                        "lp": 80,
+                        "matchId": 1599376328,
+                        "rank": "IV",
+                        "score": 1680,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 51,
+                        "lp": 1,
+                        "matchId": 1599381654,
+                        "rank": "III",
+                        "score": 1701,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 83,
+                        "lp": 22,
+                        "matchId": 1599396514,
+                        "rank": "III",
+                        "score": 1722,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 427,
+                        "lp": 43,
+                        "matchId": 1599613885,
+                        "rank": "III",
+                        "score": 1743,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 32,
+                        "lp": 65,
+                        "matchId": 1599626632,
+                        "rank": "III",
+                        "score": 1765,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 32,
+                        "lp": 47,
+                        "matchId": 1599642696,
+                        "rank": "III",
+                        "score": 1747,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 103,
+                        "lp": 69,
+                        "matchId": 1599858628,
+                        "rank": "III",
+                        "score": 1769,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 777,
+                        "lp": 91,
+                        "matchId": 1599872159,
+                        "rank": "III",
+                        "score": 1791,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 13,
+                        "matchId": 1599874630,
+                        "rank": "II",
+                        "score": 1813,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 36,
+                        "matchId": 1600097137,
+                        "rank": "II",
+                        "score": 1836,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 59,
+                        "matchId": 1601249355,
+                        "rank": "II",
+                        "score": 1859,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 42,
+                        "matchId": 1601258775,
+                        "rank": "II",
+                        "score": 1842,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 777,
+                        "lp": 65,
+                        "matchId": 1601268155,
+                        "rank": "II",
+                        "score": 1865,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 65,
+                        "matchId": 1601469489,
+                        "rank": "II",
+                        "score": 1865,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 88,
+                        "matchId": 1601474274,
+                        "rank": "II",
+                        "score": 1888,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 11,
+                        "matchId": 1601695762,
+                        "rank": "I",
+                        "score": 1911,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 235,
+                        "lp": 35,
+                        "matchId": 1601711205,
+                        "rank": "I",
+                        "score": 1935,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 59,
+                        "matchId": 1601947333,
+                        "rank": "I",
+                        "score": 1959,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 3,
+                        "lp": 84,
+                        "matchId": 1601957659,
+                        "rank": "I",
+                        "score": 1984,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 32,
+                        "lp": 69,
+                        "matchId": 1602444377,
+                        "rank": "I",
+                        "score": 1969,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 93,
+                        "matchId": 1602450897,
+                        "rank": "I",
+                        "score": 1993,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 78,
+                        "matchId": 1602624870,
+                        "rank": "I",
+                        "score": 1978,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 62,
+                        "matchId": 1602633615,
+                        "rank": "I",
+                        "score": 1962,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 45,
+                        "matchId": 1602643330,
+                        "rank": "I",
+                        "score": 1945,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 23,
+                        "matchId": 1602953685,
+                        "rank": "I",
+                        "score": 1923,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 157,
+                        "lp": 6,
+                        "matchId": 1602964691,
+                        "rank": "I",
+                        "score": 1906,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 83,
+                        "lp": 88,
+                        "matchId": 1603149275,
+                        "rank": "II",
+                        "score": 1888,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 70,
+                        "matchId": 1603156398,
+                        "rank": "II",
+                        "score": 1870,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 91,
+                        "matchId": 1603366932,
+                        "rank": "II",
+                        "score": 1891,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 18,
+                        "lp": 91,
+                        "matchId": 1603550667,
+                        "rank": "II",
+                        "score": 1891,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 91,
+                        "matchId": 1603562244,
+                        "rank": "II",
+                        "score": 1891,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 235,
+                        "lp": 52,
+                        "matchId": 1603571504,
+                        "rank": "II",
+                        "score": 1852,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 32,
+                        "matchId": 1604013184,
+                        "rank": "II",
+                        "score": 1832,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 3,
+                        "lp": 71,
+                        "matchId": 1604026155,
+                        "rank": "II",
+                        "score": 1871,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 51,
+                        "matchId": 1604697795,
+                        "rank": "II",
+                        "score": 1851,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 412,
+                        "lp": 31,
+                        "matchId": 1604709247,
+                        "rank": "II",
+                        "score": 1831,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 45,
+                        "lp": 51,
+                        "matchId": 1604715304,
+                        "rank": "II",
+                        "score": 1851,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 201,
+                        "lp": 51,
+                        "matchId": 1604730139,
+                        "rank": "II",
+                        "score": 1851,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 70,
+                        "matchId": 1607840759,
+                        "rank": "II",
+                        "score": 1870,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 70,
+                        "matchId": 1607848334,
+                        "rank": "II",
+                        "score": 1870,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 70,
+                        "matchId": 1607858421,
+                        "rank": "II",
+                        "score": 1870,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 49,
+                        "matchId": 1608279723,
+                        "rank": "II",
+                        "score": 1849,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 777,
+                        "lp": 28,
+                        "matchId": 1608301251,
+                        "rank": "II",
+                        "score": 1828,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 45,
+                        "lp": 47,
+                        "matchId": 1608309062,
+                        "rank": "II",
+                        "score": 1847,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 45,
+                        "lp": 47,
+                        "matchId": 1608483361,
+                        "rank": "II",
+                        "score": 1847,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 157,
+                        "lp": 47,
+                        "matchId": 1608493706,
+                        "rank": "II",
+                        "score": 1847,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 85,
+                        "lp": 64,
+                        "matchId": 1614330944,
+                        "rank": "II",
+                        "score": 1864,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 43,
+                        "matchId": 1614340552,
+                        "rank": "II",
+                        "score": 1843,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 75,
+                        "lp": 62,
+                        "matchId": 1614355991,
+                        "rank": "II",
+                        "score": 1862,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 82,
+                        "matchId": 1614616469,
+                        "rank": "II",
+                        "score": 1882,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 875,
+                        "lp": 62,
+                        "matchId": 1614632777,
+                        "rank": "II",
+                        "score": 1862,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 45,
+                        "lp": 62,
+                        "matchId": 1614834752,
+                        "rank": "II",
+                        "score": 1862,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 105,
+                        "lp": 62,
+                        "matchId": 1614843780,
+                        "rank": "II",
+                        "score": 1862,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 80,
+                        "matchId": 1614852739,
+                        "rank": "II",
+                        "score": 1880,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 777,
+                        "lp": 60,
+                        "matchId": 1615068881,
+                        "rank": "II",
+                        "score": 1860,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 83,
+                        "lp": 39,
+                        "matchId": 1615080635,
+                        "rank": "II",
+                        "score": 1839,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 39,
+                        "matchId": 1615367819,
+                        "rank": "II",
+                        "score": 1839,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 39,
+                        "matchId": 1615380398,
+                        "rank": "II",
+                        "score": 1839,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 39,
+                        "matchId": 1615565072,
+                        "rank": "II",
+                        "score": 1839,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 85,
+                        "lp": 39,
+                        "matchId": 1615575528,
+                        "rank": "II",
+                        "score": 1839,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 38,
+                        "matchId": 1615579669,
+                        "rank": "II",
+                        "score": 1838,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 38,
+                        "matchId": 1615797979,
+                        "rank": "II",
+                        "score": 1838,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 80,
+                        "lp": 38,
+                        "matchId": 1615816124,
+                        "rank": "II",
+                        "score": 1838,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 45,
+                        "lp": 57,
+                        "matchId": 1615820867,
+                        "rank": "II",
+                        "score": 1857,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 245,
+                        "lp": 77,
+                        "matchId": 1616070984,
+                        "rank": "II",
+                        "score": 1877,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 245,
+                        "lp": 57,
+                        "matchId": 1616087236,
+                        "rank": "II",
+                        "score": 1857,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 8,
+                        "lp": 37,
+                        "matchId": 1616278374,
+                        "rank": "II",
+                        "score": 1837,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 497,
+                        "lp": 16,
+                        "matchId": 1616279980,
+                        "rank": "II",
+                        "score": 1816,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 83,
+                        "lp": 35,
+                        "matchId": 1616293187,
+                        "rank": "II",
+                        "score": 1835,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 35,
+                        "matchId": 1616519495,
+                        "rank": "II",
+                        "score": 1835,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 245,
+                        "lp": 35,
+                        "matchId": 1616529987,
+                        "rank": "II",
+                        "score": 1835,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 69,
+                        "lp": 35,
+                        "matchId": 1616718997,
+                        "rank": "II",
+                        "score": 1835,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 157,
+                        "lp": 35,
+                        "matchId": 1616728272,
+                        "rank": "II",
+                        "score": 1835,
+                        "tier": "PLATINUM"
+                    },
+                    {
+                        "__typename": "LpStatus",
+                        "championId": 240,
+                        "lp": 10,
+                        "matchId": 1616741297,
+                        "rank": "II",
+                        "score": 1810,
+                        "tier": "PLATINUM"
+                    }
+                ]
+            }
+        ]
+    }
+}

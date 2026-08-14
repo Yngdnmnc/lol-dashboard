@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LoL Dashboard</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="preconnect" href="https://ddragon.leagueoflegends.com" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">LP</div>
+        <h1>LoL Dashboard</h1>
+      </div>
+      <div class="spacer"></div>
+      <div class="player-switch" id="playerSwitch"></div>
+      <div class="updated" id="updated"></div>
+    </header>
+
+    <div class="mock-banner hide" id="mockBanner">
+      Mostrando <b>datos de ejemplo</b> — reemplazá <code>data/players.json</code> con tus Riot IDs y configurá la API key para ver datos reales.
+    </div>
+
+    <!-- Rank cards -->
+    <div class="rank-row" id="rankRow"></div>
+
+    <!-- Charts -->
+    <div class="charts">
+      <div class="panel">
+        <div class="panel-head">
+          <div>
+            <h3>LP total en el tiempo</h3>
+            <div class="sub" id="lpTotalSub">Progresión de tu rango</div>
+          </div>
+          <div class="seg" id="lpQueueSeg">
+            <button data-q="solo" class="active">Solo/Duo</button>
+            <button data-q="flex">Flex</button>
+          </div>
+        </div>
+        <div class="chart-box"><canvas id="lpTotalChart"></canvas></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-head">
+          <div>
+            <h3>LP en últimas partidas</h3>
+            <div class="sub">Evolución partida a partida (ranked)</div>
+          </div>
+          <div class="seg" id="lpGamesSeg">
+            <button data-n="10" class="active">10</button>
+            <button data-n="20">20</button>
+            <button data-n="30">30</button>
+          </div>
+        </div>
+        <div class="chart-box"><canvas id="lpGamesChart"></canvas></div>
+      </div>
+    </div>
+
+    <!-- Champion analysis -->
+    <div class="panel champ-panel">
+      <div class="panel-head">
+        <div>
+          <h3>Análisis por campeón</h3>
+          <div class="sub" id="champSub"></div>
+        </div>
+        <select id="champSelect" class="champ-select"></select>
+      </div>
+      <div class="champ-body">
+        <div class="champ-face"><img id="champImg" alt="" /></div>
+        <div class="champ-tiles" id="champTiles"></div>
+      </div>
+    </div>
+
+    <!-- Match history -->
+    <div class="history-head">
+      <h2>Historial de partidas</h2>
+      <div class="queue-tabs" id="queueTabs">
+        <button data-f="ALL" class="active">Todas</button>
+        <button data-f="SOLO">Solo/Duo</button>
+        <button data-f="FLEX">Flex</button>
+      </div>
+    </div>
+    <div id="matchList"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

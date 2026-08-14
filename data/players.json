@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "ddragonVersion": "16.16.1",
+    "updated": null,
+    "note": "Datos sembrados desde u.gg. fetch.py (con API key válida) los enriquece con KDA/CS/oro/daño y rank en vivo."
+  },
+  "players": [
+    {
+      "id": "me",
+      "name": "Agustín",
+      "riotId": "Ragusth#7822",
+      "platform": "la2",
+      "regional": "americas",
+      "puuid": "YEaJAG_tL1faWZ2e0FuBkR5QfNN9FVijrF_d0IvhPZhkSr_7pZ3Oodxn-DqBJeMWKlLYh6vMKHOtyw"
+    },
+    {
+      "id": "friend",
+      "name": "Joel",
+      "riotId": "alchemist bomb#LAS",
+      "platform": "la2",
+      "regional": "americas",
+      "puuid": "r5lV5rOuWD9-jYOcFT-PpYGzakYZk0e7kGunQOsn0BvgVHAhE50QrmFePhXt96aMM_tJphHJkFTKqg"
+    }
+  ]
+}

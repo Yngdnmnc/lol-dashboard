@@ -1,0 +1,43 @@
+name: Actualizar datos LoL
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # cada 30 minutos (UTC)
+  workflow_dispatch:          # botón para correr manualmente
+  push:
+    branches: [ main ]
+    paths: [ "data/players.json" ]  # re-fetch si cambiás la config
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Bajar datos de Riot
+        env:
+          RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
+        run: python scripts/fetch.py
+
+      - name: Commit de los datos actualizados
+        run: |
+          git config user.name "lol-dashboard-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "Sin cambios en los datos."
+          else
+            git commit -m "chore: actualizar datos LoL [skip ci]"
+            git push
+          fi
