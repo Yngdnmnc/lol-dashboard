@@ -235,7 +235,10 @@ def main():
             lp_history = data.get("lpHistory") or {"solo": [], "flex": []}
             lp_history.setdefault("solo", []); lp_history.setdefault("flex", [])
 
-            puuid = p.get("puuid") or resolve_puuid(p["regional"], p["riotId"])
+            # OJO: los PUUID son específicos por API key (vienen "encriptados").
+            # Si se guarda uno viejo y se cambia la key, league-v4/match-v5 dan
+            # HTTP 400 "Exception decrypting". Por eso lo re-resolvemos siempre.
+            puuid = resolve_puuid(p["regional"], p["riotId"])
             if not puuid:
                 print("   PUUID no encontrado, salteando."); continue
             p["puuid"] = puuid
