@@ -18,10 +18,10 @@
     "flex": {
       "tier": "EMERALD",
       "rank": "IV",
-      "lp": 56,
-      "wins": 85,
+      "lp": 75,
+      "wins": 86,
       "losses": 80,
-      "absoluteLp": 2056
+      "absoluteLp": 2075
     }
   },
   "lpHistory": {
@@ -2501,10 +2501,53 @@
         "queue": "FLEX",
         "t": 1786756306691,
         "live": true
+      },
+      {
+        "i": 139,
+        "lp": 2075,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "lpInDiv": 75,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": 19,
+        "win": true,
+        "queue": "FLEX",
+        "t": 1786760127867,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1616987245,
+      "queue": "FLEX",
+      "champion": "Briar",
+      "championId": 233,
+      "win": true,
+      "lpChange": 19,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 9,
+      "deaths": 7,
+      "assists": 12,
+      "kda": 3.0,
+      "cs": 219,
+      "csPerMin": 6.5,
+      "gold": 14882,
+      "goldPerMin": 440,
+      "damage": 29785,
+      "damagePerMin": 880,
+      "visionScore": 24,
+      "killParticipation": 78,
+      "duration": 2031,
+      "position": "JUNGLE",
+      "timestamp": 1786754795265,
+      "lpReal": true
+    },
     {
       "matchId": 1616979173,
       "queue": "FLEX",
