@@ -18,10 +18,10 @@
     "flex": {
       "tier": "PLATINUM",
       "rank": "II",
-      "lp": 10,
-      "wins": 85,
+      "lp": 30,
+      "wins": 86,
       "losses": 77,
-      "absoluteLp": 1810
+      "absoluteLp": 1830
     }
   },
   "lpHistory": {
@@ -3069,10 +3069,52 @@
         "delta": -25,
         "win": false,
         "queue": "FLEX"
+      },
+      {
+        "i": 138,
+        "lp": 1830,
+        "tier": "PLATINUM",
+        "rank": "II",
+        "lpInDiv": 30,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": 20,
+        "win": true,
+        "queue": "FLEX",
+        "t": 1786752048975,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1616971238,
+      "queue": "FLEX",
+      "champion": "Jayce",
+      "championId": 126,
+      "win": true,
+      "lpChange": null,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 2,
+      "deaths": 1,
+      "assists": 3,
+      "kda": 5.0,
+      "cs": 137,
+      "csPerMin": 7.4,
+      "gold": 7116,
+      "goldPerMin": 386,
+      "damage": 12481,
+      "damagePerMin": 678,
+      "visionScore": 8,
+      "killParticipation": 24,
+      "duration": 1105,
+      "position": "TOP",
+      "timestamp": 1786750897298
+    },
     {
       "matchId": 1616741297,
       "queue": "FLEX",
