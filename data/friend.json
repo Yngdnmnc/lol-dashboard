@@ -18,10 +18,10 @@
     "flex": {
       "tier": "EMERALD",
       "rank": "IV",
-      "lp": 37,
-      "wins": 84,
+      "lp": 56,
+      "wins": 85,
       "losses": 80,
-      "absoluteLp": 2037
+      "absoluteLp": 2056
     }
   },
   "lpHistory": {
@@ -2486,10 +2486,53 @@
         "queue": "FLEX",
         "t": 1786752092182,
         "live": true
+      },
+      {
+        "i": 138,
+        "lp": 2056,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "lpInDiv": 56,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": 19,
+        "win": true,
+        "queue": "FLEX",
+        "t": 1786756306691,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1616979173,
+      "queue": "FLEX",
+      "champion": "Yone",
+      "championId": 777,
+      "win": true,
+      "lpChange": 19,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 10,
+      "deaths": 4,
+      "assists": 2,
+      "kda": 3.0,
+      "cs": 213,
+      "csPerMin": 8.3,
+      "gold": 13434,
+      "goldPerMin": 525,
+      "damage": 28636,
+      "damagePerMin": 1119,
+      "visionScore": 8,
+      "killParticipation": 29,
+      "duration": 1536,
+      "position": "TOP",
+      "timestamp": 1786752374133,
+      "lpReal": true
+    },
     {
       "matchId": 1616971238,
       "queue": "FLEX",
