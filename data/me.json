@@ -18,10 +18,10 @@
     "flex": {
       "tier": "PLATINUM",
       "rank": "II",
-      "lp": 72,
+      "lp": 52,
       "wins": 89,
-      "losses": 78,
-      "absoluteLp": 1872
+      "losses": 79,
+      "absoluteLp": 1852
     }
   },
   "lpHistory": {
@@ -3159,10 +3159,54 @@
         "queue": "FLEX",
         "t": 1786921025524,
         "live": true
+      },
+      {
+        "i": 143,
+        "lp": 1852,
+        "tier": "PLATINUM",
+        "rank": "II",
+        "lpInDiv": 52,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": -20,
+        "win": false,
+        "queue": "FLEX",
+        "t": 1786923824628,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1617490901,
+      "queue": "FLEX",
+      "champion": "Volibear",
+      "championId": 106,
+      "win": false,
+      "lpChange": -20,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 6,
+      "deaths": 6,
+      "assists": 0,
+      "kda": 1.0,
+      "cs": 205,
+      "csPerMin": 7.5,
+      "gold": 12811,
+      "goldPerMin": 469,
+      "damage": 21742,
+      "damagePerMin": 796,
+      "visionScore": 22,
+      "killParticipation": 40,
+      "duration": 1638,
+      "position": "TOP",
+      "timestamp": 1786920947036,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1617480601,
       "queue": "FLEX",
