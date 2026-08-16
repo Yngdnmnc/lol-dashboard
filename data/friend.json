@@ -18,10 +18,10 @@
     "flex": {
       "tier": "EMERALD",
       "rank": "IV",
-      "lp": 75,
-      "wins": 86,
+      "lp": 95,
+      "wins": 87,
       "losses": 80,
-      "absoluteLp": 2075
+      "absoluteLp": 2095
     }
   },
   "lpHistory": {
@@ -2516,10 +2516,54 @@
         "queue": "FLEX",
         "t": 1786760127867,
         "live": true
+      },
+      {
+        "i": 140,
+        "lp": 2095,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "lpInDiv": 95,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": 20,
+        "win": true,
+        "queue": "FLEX",
+        "t": 1786918548502,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1617471717,
+      "queue": "FLEX",
+      "champion": "Kayle",
+      "championId": 10,
+      "win": true,
+      "lpChange": 20,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 6,
+      "deaths": 3,
+      "assists": 6,
+      "kda": 4.0,
+      "cs": 266,
+      "csPerMin": 9.5,
+      "gold": 12741,
+      "goldPerMin": 455,
+      "damage": 26423,
+      "damagePerMin": 944,
+      "visionScore": 19,
+      "killParticipation": 27,
+      "duration": 1680,
+      "position": "TOP",
+      "timestamp": 1786916343237,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1616987245,
       "queue": "FLEX",

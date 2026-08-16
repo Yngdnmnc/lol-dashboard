@@ -18,10 +18,10 @@
     "flex": {
       "tier": "PLATINUM",
       "rank": "II",
-      "lp": 70,
-      "wins": 88,
+      "lp": 91,
+      "wins": 89,
       "losses": 77,
-      "absoluteLp": 1870
+      "absoluteLp": 1891
     }
   },
   "lpHistory": {
@@ -3129,10 +3129,54 @@
         "queue": "FLEX",
         "t": 1786760090255,
         "live": true
+      },
+      {
+        "i": 141,
+        "lp": 1891,
+        "tier": "PLATINUM",
+        "rank": "II",
+        "lpInDiv": 91,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": 21,
+        "win": true,
+        "queue": "FLEX",
+        "t": 1786918514548,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1617471717,
+      "queue": "FLEX",
+      "champion": "Kled",
+      "championId": 240,
+      "win": true,
+      "lpChange": 21,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 8,
+      "deaths": 2,
+      "assists": 12,
+      "kda": 10.0,
+      "cs": 152,
+      "csPerMin": 5.4,
+      "gold": 12664,
+      "goldPerMin": 452,
+      "damage": 22918,
+      "damagePerMin": 818,
+      "visionScore": 19,
+      "killParticipation": 45,
+      "duration": 1680,
+      "position": "MIDDLE",
+      "timestamp": 1786916343237,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1617391505,
       "queue": "SOLO",
