@@ -2546,7 +2546,8 @@
       "duration": 2031,
       "position": "JUNGLE",
       "timestamp": 1786754795265,
-      "lpReal": true
+      "lpReal": true,
+      "aegis": false
     },
     {
       "matchId": 1616979173,
@@ -2574,7 +2575,8 @@
       "duration": 1536,
       "position": "TOP",
       "timestamp": 1786752374133,
-      "lpReal": true
+      "lpReal": true,
+      "aegis": false
     },
     {
       "matchId": 1616971238,
@@ -2582,7 +2584,7 @@
       "champion": "Xayah",
       "championId": 498,
       "win": true,
-      "lpChange": null,
+      "lpChange": 19,
       "lpAfter": null,
       "tier": null,
       "rank": null,
@@ -2601,7 +2603,9 @@
       "killParticipation": 43,
       "duration": 1105,
       "position": "BOTTOM",
-      "timestamp": 1786750897298
+      "timestamp": 1786750897298,
+      "lpReal": true,
+      "aegis": false
     },
     {
       "matchId": 1616741297,

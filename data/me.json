@@ -3139,7 +3139,7 @@
       "champion": "Thresh",
       "championId": 412,
       "win": true,
-      "lpChange": null,
+      "lpChange": 44,
       "lpAfter": null,
       "tier": null,
       "rank": null,
@@ -3158,7 +3158,9 @@
       "killParticipation": 48,
       "duration": 1955,
       "position": "UTILITY",
-      "timestamp": 1786888391088
+      "timestamp": 1786888391088,
+      "lpReal": true,
+      "aegis": true
     },
     {
       "matchId": 1616987245,
@@ -3186,7 +3188,8 @@
       "duration": 2031,
       "position": "MIDDLE",
       "timestamp": 1786754795265,
-      "lpReal": true
+      "lpReal": true,
+      "aegis": false
     },
     {
       "matchId": 1616979173,
@@ -3214,7 +3217,8 @@
       "duration": 1536,
       "position": "MIDDLE",
       "timestamp": 1786752374133,
-      "lpReal": true
+      "lpReal": true,
+      "aegis": false
     },
     {
       "matchId": 1616971238,
@@ -3222,7 +3226,7 @@
       "champion": "Jayce",
       "championId": 126,
       "win": true,
-      "lpChange": null,
+      "lpChange": 20,
       "lpAfter": null,
       "tier": null,
       "rank": null,
@@ -3241,7 +3245,9 @@
       "killParticipation": 24,
       "duration": 1105,
       "position": "TOP",
-      "timestamp": 1786750897298
+      "timestamp": 1786750897298,
+      "lpReal": true,
+      "aegis": false
     },
     {
       "matchId": 1616741297,

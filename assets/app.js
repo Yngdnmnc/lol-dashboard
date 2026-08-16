@@ -410,12 +410,15 @@ function matchLp(m) {
   if (m.win === false) return -LP_PER_GAME;
   return null;
 }
+const AEGIS_LP = 35;
 function lpChangeBadge(m) {
   const c = matchLp(m);
   if (c == null) return `<span class="lp-chip neu">${m.rankLabel || ""}</span>`;
   const cls = c > 0 ? "pos" : c < 0 ? "neg" : "neu", sign = c > 0 ? "+" : "";
-  const title = m.lpReal ? "LP real (Riot)" : "Estimado (~20 LP)";
-  return `<span class="lp-chip ${cls}" title="${title}">${sign}${c} LP</span>`;
+  const aegis = m.aegis === true || (m.lpReal && m.win && c > AEGIS_LP);
+  const title = aegis ? "Aegis: bonus de LP por MMR alto" : m.lpReal ? "LP real (Riot)" : "Estimado (~20 LP)";
+  const icon = aegis ? ` <span class="aegis" title="Aegis: bonus de LP por MMR alto">🛡️</span>` : "";
+  return `<span class="lp-chip ${cls}${aegis ? " aegis-chip" : ""}" title="${title}">${sign}${c} LP${icon}</span>`;
 }
 
 function matchRow(m, maxDmg, hasStats) {

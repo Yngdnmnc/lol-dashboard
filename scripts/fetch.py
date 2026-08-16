@@ -191,22 +191,38 @@ def append_snapshot(hist_list, ranks_entry, queue):
     })
 
 
+AEGIS_LP = 35  # ganar más que esto marca la partida como "Aegis" (bonus por MMR)
+
+
 def assign_real_lp(matches, lp_history):
-    """LP real por partida = snapshot posterior - snapshot anterior.
-    Solo se asigna cuando entre dos snapshots (con timestamp) ocurrió UNA sola
-    partida de esa cola; si no, se deja el estimado ±20 del frontend.
-    Requiere que fetch.py corra seguido (cron) para tener snapshots alrededor de cada game.
+    """LP real por partida a partir de la timeline de LP.
+    Cada punto 'live' trae su delta (cambio desde el punto anterior). Si en la
+    ventana entre el punto anterior y ese snapshot ocurrió UNA sola ranked de esa
+    cola, ese delta es el LP real de esa partida (incluye el bonus de Aegis). Si
+    hubo varias, no se puede separar y queda el estimado ±20 del frontend.
     """
     for queue, key in (("SOLO", "solo"), ("FLEX", "flex")):
-        snaps = sorted([s for s in lp_history.get(key, []) if s.get("t")], key=lambda s: s["t"])
+        pts = lp_history.get(key, [])
         qm = sorted([m for m in matches if m["queue"] == queue and m.get("timestamp")],
                     key=lambda m: m["timestamp"])
-        for a, b in zip(snaps, snaps[1:]):
-            between = [m for m in qm if a["t"] < (m["timestamp"] + (m.get("duration") or 0) * 1000) <= b["t"]]
-            if len(between) == 1:
-                m = between[0]
-                m["lpChange"] = b["lp"] - a["lp"]
+        for i in range(1, len(pts)):
+            prev, cur = pts[i - 1], pts[i]
+            if not cur.get("t") or cur.get("delta") is None:
+                continue
+            upper = cur["t"]
+            if prev.get("t"):  # ventana entre dos snapshots con timestamp
+                lo = prev["t"]
+                inwin = [m for m in qm
+                         if lo < (m["timestamp"] + (m.get("duration") or 0) * 1000) <= upper]
+            else:  # transición seed -> primer live: piso por matchId del seed
+                m0 = prev.get("matchId") or 0
+                inwin = [m for m in qm if m["matchId"] > m0
+                         and (m["timestamp"] + (m.get("duration") or 0) * 1000) <= upper]
+            if len(inwin) == 1:
+                m = inwin[0]
+                m["lpChange"] = cur["delta"]
                 m["lpReal"] = True
+                m["aegis"] = bool(m["win"]) and cur["delta"] > AEGIS_LP
 
 
 # ---------------- main ----------------
