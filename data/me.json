@@ -10,10 +10,10 @@
     "solo": {
       "tier": "GOLD",
       "rank": "I",
-      "lp": 13,
-      "wins": 64,
+      "lp": 57,
+      "wins": 65,
       "losses": 52,
-      "absoluteLp": 1513
+      "absoluteLp": 1557
     },
     "flex": {
       "tier": "PLATINUM",
@@ -1273,6 +1273,21 @@
         "delta": 21,
         "win": true,
         "queue": "SOLO"
+      },
+      {
+        "i": 96,
+        "lp": 1557,
+        "tier": "GOLD",
+        "rank": "I",
+        "lpInDiv": 57,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": 44,
+        "win": true,
+        "queue": "SOLO",
+        "t": 1786890503023,
+        "live": true
       }
     ],
     "flex": [
@@ -3118,6 +3133,33 @@
     ]
   },
   "matches": [
+    {
+      "matchId": 1617391505,
+      "queue": "SOLO",
+      "champion": "Thresh",
+      "championId": 412,
+      "win": true,
+      "lpChange": null,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 3,
+      "deaths": 2,
+      "assists": 13,
+      "kda": 8.0,
+      "cs": 59,
+      "csPerMin": 1.8,
+      "gold": 10364,
+      "goldPerMin": 318,
+      "damage": 12344,
+      "damagePerMin": 379,
+      "visionScore": 77,
+      "killParticipation": 48,
+      "duration": 1955,
+      "position": "UTILITY",
+      "timestamp": 1786888391088
+    },
     {
       "matchId": 1616987245,
       "queue": "FLEX",
