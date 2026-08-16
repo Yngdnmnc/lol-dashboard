@@ -18,10 +18,10 @@
     "flex": {
       "tier": "EMERALD",
       "rank": "IV",
-      "lp": 95,
+      "lp": 75,
       "wins": 87,
-      "losses": 80,
-      "absoluteLp": 2095
+      "losses": 81,
+      "absoluteLp": 2075
     }
   },
   "lpHistory": {
@@ -2531,10 +2531,54 @@
         "queue": "FLEX",
         "t": 1786918548502,
         "live": true
+      },
+      {
+        "i": 141,
+        "lp": 2075,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "lpInDiv": 75,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": -20,
+        "win": false,
+        "queue": "FLEX",
+        "t": 1786921059055,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1617480601,
+      "queue": "FLEX",
+      "champion": "Pyke",
+      "championId": 555,
+      "win": false,
+      "lpChange": -20,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 3,
+      "deaths": 3,
+      "assists": 6,
+      "kda": 3.0,
+      "cs": 38,
+      "csPerMin": 1.3,
+      "gold": 8900,
+      "goldPerMin": 314,
+      "damage": 7625,
+      "damagePerMin": 269,
+      "visionScore": 75,
+      "killParticipation": 47,
+      "duration": 1703,
+      "position": "UTILITY",
+      "timestamp": 1786918388786,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1617471717,
       "queue": "FLEX",

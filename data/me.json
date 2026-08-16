@@ -18,10 +18,10 @@
     "flex": {
       "tier": "PLATINUM",
       "rank": "II",
-      "lp": 91,
+      "lp": 72,
       "wins": 89,
-      "losses": 77,
-      "absoluteLp": 1891
+      "losses": 78,
+      "absoluteLp": 1872
     }
   },
   "lpHistory": {
@@ -3144,10 +3144,54 @@
         "queue": "FLEX",
         "t": 1786918514548,
         "live": true
+      },
+      {
+        "i": 142,
+        "lp": 1872,
+        "tier": "PLATINUM",
+        "rank": "II",
+        "lpInDiv": 72,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": -19,
+        "win": false,
+        "queue": "FLEX",
+        "t": 1786921025524,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1617480601,
+      "queue": "FLEX",
+      "champion": "Cassiopeia",
+      "championId": 69,
+      "win": false,
+      "lpChange": -19,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 1,
+      "deaths": 4,
+      "assists": 1,
+      "kda": 0.5,
+      "cs": 171,
+      "csPerMin": 6.0,
+      "gold": 7991,
+      "goldPerMin": 282,
+      "damage": 2094,
+      "damagePerMin": 74,
+      "visionScore": 12,
+      "killParticipation": 11,
+      "duration": 1703,
+      "position": "MIDDLE",
+      "timestamp": 1786918388786,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1617471717,
       "queue": "FLEX",
