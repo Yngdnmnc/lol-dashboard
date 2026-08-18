@@ -18,10 +18,10 @@
     "flex": {
       "tier": "EMERALD",
       "rank": "IV",
-      "lp": 54,
-      "wins": 87,
+      "lp": 73,
+      "wins": 88,
       "losses": 82,
-      "absoluteLp": 2054
+      "absoluteLp": 2073
     }
   },
   "lpHistory": {
@@ -2561,10 +2561,54 @@
         "queue": "FLEX",
         "t": 1786923861896,
         "live": true
+      },
+      {
+        "i": 143,
+        "lp": 2073,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "lpInDiv": 73,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": 19,
+        "win": true,
+        "queue": "FLEX",
+        "t": 1787093129540,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1617969338,
+      "queue": "FLEX",
+      "champion": "Ezreal",
+      "championId": 81,
+      "win": true,
+      "lpChange": 19,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 6,
+      "deaths": 4,
+      "assists": 5,
+      "kda": 2.75,
+      "cs": 222,
+      "csPerMin": 8.2,
+      "gold": 13074,
+      "goldPerMin": 481,
+      "damage": 23152,
+      "damagePerMin": 852,
+      "visionScore": 18,
+      "killParticipation": 38,
+      "duration": 1631,
+      "position": "BOTTOM",
+      "timestamp": 1787089839765,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1617490901,
       "queue": "FLEX",
