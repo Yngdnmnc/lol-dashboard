@@ -17,11 +17,11 @@
     },
     "flex": {
       "tier": "EMERALD",
-      "rank": "III",
-      "lp": 12,
+      "rank": "IV",
+      "lp": 92,
       "wins": 91,
-      "losses": 83,
-      "absoluteLp": 2112
+      "losses": 84,
+      "absoluteLp": 2092
     }
   },
   "lpHistory": {
@@ -2606,10 +2606,54 @@
         "queue": "FLEX",
         "t": 1787264525944,
         "live": true
+      },
+      {
+        "i": 146,
+        "lp": 2092,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "lpInDiv": 92,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": -20,
+        "win": false,
+        "queue": "FLEX",
+        "t": 1787270178798,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1618423351,
+      "queue": "FLEX",
+      "champion": "Nautilus",
+      "championId": 111,
+      "win": false,
+      "lpChange": -20,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 6,
+      "deaths": 9,
+      "assists": 27,
+      "kda": 3.67,
+      "cs": 68,
+      "csPerMin": 1.9,
+      "gold": 15262,
+      "goldPerMin": 422,
+      "damage": 30242,
+      "damagePerMin": 836,
+      "visionScore": 40,
+      "killParticipation": 70,
+      "duration": 2170,
+      "position": "UTILITY",
+      "timestamp": 1787266971893,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1618406657,
       "queue": "FLEX",
