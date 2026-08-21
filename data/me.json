@@ -17,11 +17,11 @@
     },
     "flex": {
       "tier": "PLATINUM",
-      "rank": "II",
-      "lp": 96,
-      "wins": 93,
+      "rank": "I",
+      "lp": 17,
+      "wins": 94,
       "losses": 81,
-      "absoluteLp": 1896
+      "absoluteLp": 1917
     }
   },
   "lpHistory": {
@@ -3249,10 +3249,54 @@
         "queue": "FLEX",
         "t": 1787270144589,
         "live": true
+      },
+      {
+        "i": 149,
+        "lp": 1917,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "lpInDiv": 17,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": 21,
+        "win": true,
+        "queue": "FLEX",
+        "t": 1787274923970,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1618432583,
+      "queue": "FLEX",
+      "champion": "Nasus",
+      "championId": 75,
+      "win": true,
+      "lpChange": 21,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 2,
+      "deaths": 10,
+      "assists": 5,
+      "kda": 0.7,
+      "cs": 251,
+      "csPerMin": 7.5,
+      "gold": 11806,
+      "goldPerMin": 355,
+      "damage": 14329,
+      "damagePerMin": 431,
+      "visionScore": 25,
+      "killParticipation": 19,
+      "duration": 1996,
+      "position": "TOP",
+      "timestamp": 1787269643997,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1618423351,
       "queue": "FLEX",
