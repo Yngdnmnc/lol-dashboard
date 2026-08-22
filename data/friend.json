@@ -18,10 +18,10 @@
     "flex": {
       "tier": "EMERALD",
       "rank": "IV",
-      "lp": 51,
-      "wins": 92,
+      "lp": 70,
+      "wins": 93,
       "losses": 87,
-      "absoluteLp": 2051
+      "absoluteLp": 2070
     }
   },
   "lpHistory": {
@@ -2666,10 +2666,54 @@
         "queue": "FLEX",
         "t": 1787365067611,
         "live": true
+      },
+      {
+        "i": 150,
+        "lp": 2070,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "lpInDiv": 70,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": 19,
+        "win": true,
+        "queue": "FLEX",
+        "t": 1787440567435,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1618891523,
+      "queue": "FLEX",
+      "champion": "Yunara",
+      "championId": 804,
+      "win": true,
+      "lpChange": 19,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 6,
+      "deaths": 3,
+      "assists": 5,
+      "kda": 3.67,
+      "cs": 190,
+      "csPerMin": 8.1,
+      "gold": 11663,
+      "goldPerMin": 496,
+      "damage": 13063,
+      "damagePerMin": 556,
+      "visionScore": 12,
+      "killParticipation": 32,
+      "duration": 1410,
+      "position": "BOTTOM",
+      "timestamp": 1787439053714,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1618677475,
       "queue": "FLEX",
