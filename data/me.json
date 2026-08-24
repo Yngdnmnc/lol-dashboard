@@ -18,10 +18,10 @@
     "flex": {
       "tier": "PLATINUM",
       "rank": "I",
-      "lp": 43,
-      "wins": 98,
+      "lp": 85,
+      "wins": 99,
       "losses": 84,
-      "absoluteLp": 1943
+      "absoluteLp": 1985
     }
   },
   "lpHistory": {
@@ -3354,10 +3354,54 @@
         "queue": "FLEX",
         "t": 1787534100748,
         "live": true
+      },
+      {
+        "i": 155,
+        "lp": 1985,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "lpInDiv": 85,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": 42,
+        "win": true,
+        "queue": "FLEX",
+        "t": 1787615617369,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1619373844,
+      "queue": "FLEX",
+      "champion": "Thresh",
+      "championId": 412,
+      "win": true,
+      "lpChange": 42,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 4,
+      "deaths": 7,
+      "assists": 21,
+      "kda": 3.57,
+      "cs": 38,
+      "csPerMin": 0.9,
+      "gold": 12335,
+      "goldPerMin": 307,
+      "damage": 12256,
+      "damagePerMin": 305,
+      "visionScore": 110,
+      "killParticipation": 48,
+      "duration": 2412,
+      "position": "UTILITY",
+      "timestamp": 1787611368678,
+      "lpReal": true,
+      "aegis": true
+    },
     {
       "matchId": 1619188987,
       "queue": "FLEX",
