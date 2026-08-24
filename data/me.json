@@ -18,10 +18,10 @@
     "flex": {
       "tier": "PLATINUM",
       "rank": "I",
-      "lp": 1,
-      "wins": 96,
+      "lp": 43,
+      "wins": 98,
       "losses": 84,
-      "absoluteLp": 1901
+      "absoluteLp": 1943
     }
   },
   "lpHistory": {
@@ -3339,10 +3339,79 @@
         "queue": "FLEX",
         "t": 1787528328361,
         "live": true
+      },
+      {
+        "i": 154,
+        "lp": 1943,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "lpInDiv": 43,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": 42,
+        "win": true,
+        "queue": "FLEX",
+        "t": 1787534100748,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1619188987,
+      "queue": "FLEX",
+      "champion": "Kled",
+      "championId": 240,
+      "win": true,
+      "lpChange": null,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 15,
+      "deaths": 5,
+      "assists": 10,
+      "kda": 5.0,
+      "cs": 231,
+      "csPerMin": 6.1,
+      "gold": 16660,
+      "goldPerMin": 443,
+      "damage": 40298,
+      "damagePerMin": 1072,
+      "visionScore": 33,
+      "killParticipation": 49,
+      "duration": 2256,
+      "position": "MIDDLE",
+      "timestamp": 1787531488524
+    },
+    {
+      "matchId": 1619171363,
+      "queue": "FLEX",
+      "champion": "Kled",
+      "championId": 240,
+      "win": true,
+      "lpChange": null,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 10,
+      "deaths": 13,
+      "assists": 16,
+      "kda": 2.0,
+      "cs": 311,
+      "csPerMin": 6.1,
+      "gold": 20417,
+      "goldPerMin": 402,
+      "damage": 34341,
+      "damagePerMin": 676,
+      "visionScore": 51,
+      "killParticipation": 47,
+      "duration": 3050,
+      "position": "MIDDLE",
+      "timestamp": 1787528050677
+    },
     {
       "matchId": 1619165451,
       "queue": "FLEX",
