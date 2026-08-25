@@ -18,10 +18,10 @@
     "flex": {
       "tier": "PLATINUM",
       "rank": "I",
-      "lp": 47,
+      "lp": 22,
       "wins": 99,
-      "losses": 86,
-      "absoluteLp": 1947
+      "losses": 87,
+      "absoluteLp": 1922
     }
   },
   "lpHistory": {
@@ -3384,10 +3384,54 @@
         "queue": "FLEX",
         "t": 1787620399468,
         "live": true
+      },
+      {
+        "i": 157,
+        "lp": 1922,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "lpInDiv": 22,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": -25,
+        "win": false,
+        "queue": "FLEX",
+        "t": 1787702122224,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1619600658,
+      "queue": "FLEX",
+      "champion": "Lulu",
+      "championId": 117,
+      "win": false,
+      "lpChange": -25,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 1,
+      "deaths": 1,
+      "assists": 6,
+      "kda": 7.0,
+      "cs": 25,
+      "csPerMin": 1.0,
+      "gold": 6211,
+      "goldPerMin": 254,
+      "damage": 4729,
+      "damagePerMin": 193,
+      "visionScore": 52,
+      "killParticipation": 50,
+      "duration": 1468,
+      "position": "UTILITY",
+      "timestamp": 1787699153845,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1619398925,
       "queue": "FLEX",
