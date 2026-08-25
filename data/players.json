@@ -1,6 +1,6 @@
 {
   "meta": {
-    "ddragonVersion": "16.16.1",
+    "ddragonVersion": "16.17.1",
     "updated": null,
     "note": "Datos sembrados desde u.gg. fetch.py (con API key válida) los enriquece con KDA/CS/oro/daño y rank en vivo."
   },
