@@ -18,10 +18,10 @@
     "flex": {
       "tier": "EMERALD",
       "rank": "IV",
-      "lp": 72,
+      "lp": 51,
       "wins": 99,
-      "losses": 93,
-      "absoluteLp": 2072
+      "losses": 94,
+      "absoluteLp": 2051
     }
   },
   "lpHistory": {
@@ -2771,10 +2771,54 @@
         "queue": "FLEX",
         "t": 1787889571446,
         "live": true
+      },
+      {
+        "i": 157,
+        "lp": 2051,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "lpInDiv": 51,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": -21,
+        "win": false,
+        "queue": "FLEX",
+        "t": 1788041640789,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1620525381,
+      "queue": "FLEX",
+      "champion": "Trundle",
+      "championId": 48,
+      "win": false,
+      "lpChange": -21,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 8,
+      "deaths": 5,
+      "assists": 4,
+      "kda": 2.4,
+      "cs": 186,
+      "csPerMin": 6.3,
+      "gold": 14392,
+      "goldPerMin": 489,
+      "damage": 19669,
+      "damagePerMin": 669,
+      "visionScore": 19,
+      "killParticipation": 40,
+      "duration": 1765,
+      "position": "JUNGLE",
+      "timestamp": 1788038527091,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1620066851,
       "queue": "FLEX",
