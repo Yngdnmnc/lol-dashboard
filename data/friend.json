@@ -18,10 +18,10 @@
     "flex": {
       "tier": "EMERALD",
       "rank": "IV",
-      "lp": 51,
+      "lp": 9,
       "wins": 99,
-      "losses": 94,
-      "absoluteLp": 2051
+      "losses": 96,
+      "absoluteLp": 2009
     }
   },
   "lpHistory": {
@@ -2786,10 +2786,79 @@
         "queue": "FLEX",
         "t": 1788041640789,
         "live": true
+      },
+      {
+        "i": 158,
+        "lp": 2009,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "lpInDiv": 9,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": -42,
+        "win": false,
+        "queue": "FLEX",
+        "t": 1788049447892,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1620545291,
+      "queue": "FLEX",
+      "champion": "Yunara",
+      "championId": 804,
+      "win": false,
+      "lpChange": null,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 5,
+      "deaths": 5,
+      "assists": 4,
+      "kda": 1.8,
+      "cs": 325,
+      "csPerMin": 9.2,
+      "gold": 16910,
+      "goldPerMin": 477,
+      "damage": 29498,
+      "damagePerMin": 833,
+      "visionScore": 16,
+      "killParticipation": 36,
+      "duration": 2125,
+      "position": "BOTTOM",
+      "timestamp": 1788042823439
+    },
+    {
+      "matchId": 1620531914,
+      "queue": "FLEX",
+      "champion": "Yunara",
+      "championId": 804,
+      "win": false,
+      "lpChange": null,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 4,
+      "deaths": 5,
+      "assists": 3,
+      "kda": 1.4,
+      "cs": 207,
+      "csPerMin": 8.0,
+      "gold": 12192,
+      "goldPerMin": 471,
+      "damage": 19502,
+      "damagePerMin": 753,
+      "visionScore": 14,
+      "killParticipation": 37,
+      "duration": 1553,
+      "position": "BOTTOM",
+      "timestamp": 1788040742893
+    },
     {
       "matchId": 1620525381,
       "queue": "FLEX",
