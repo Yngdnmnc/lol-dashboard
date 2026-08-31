@@ -18,10 +18,10 @@
     "flex": {
       "tier": "EMERALD",
       "rank": "IV",
-      "lp": 7,
-      "wins": 100,
+      "lp": 26,
+      "wins": 101,
       "losses": 97,
-      "absoluteLp": 2007
+      "absoluteLp": 2026
     }
   },
   "lpHistory": {
@@ -2831,10 +2831,54 @@
         "queue": "FLEX",
         "t": 1788128389230,
         "live": true
+      },
+      {
+        "i": 160,
+        "lp": 2026,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "lpInDiv": 26,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": 19,
+        "win": true,
+        "queue": "FLEX",
+        "t": 1788136831749,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1620802798,
+      "queue": "FLEX",
+      "champion": "Xayah",
+      "championId": 498,
+      "win": true,
+      "lpChange": 19,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 10,
+      "deaths": 3,
+      "assists": 7,
+      "kda": 5.67,
+      "cs": 223,
+      "csPerMin": 8.7,
+      "gold": 13578,
+      "goldPerMin": 528,
+      "damage": 24236,
+      "damagePerMin": 942,
+      "visionScore": 15,
+      "killParticipation": 55,
+      "duration": 1543,
+      "position": "BOTTOM",
+      "timestamp": 1788128021769,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1620795200,
       "queue": "FLEX",

@@ -18,10 +18,10 @@
     "flex": {
       "tier": "PLATINUM",
       "rank": "II",
-      "lp": 38,
-      "wins": 102,
+      "lp": 57,
+      "wins": 103,
       "losses": 94,
-      "absoluteLp": 1838
+      "absoluteLp": 1857
     }
   },
   "lpHistory": {
@@ -3459,10 +3459,54 @@
         "queue": "FLEX",
         "t": 1788128354924,
         "live": true
+      },
+      {
+        "i": 162,
+        "lp": 1857,
+        "tier": "PLATINUM",
+        "rank": "II",
+        "lpInDiv": 57,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": 19,
+        "win": true,
+        "queue": "FLEX",
+        "t": 1788136794721,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1620802798,
+      "queue": "FLEX",
+      "champion": "Kennen",
+      "championId": 85,
+      "win": true,
+      "lpChange": 19,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 2,
+      "deaths": 1,
+      "assists": 6,
+      "kda": 8.0,
+      "cs": 206,
+      "csPerMin": 8.0,
+      "gold": 9037,
+      "goldPerMin": 351,
+      "damage": 18004,
+      "damagePerMin": 700,
+      "visionScore": 26,
+      "killParticipation": 26,
+      "duration": 1543,
+      "position": "TOP",
+      "timestamp": 1788128021769,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1620795200,
       "queue": "FLEX",
