@@ -18,10 +18,10 @@
     "flex": {
       "tier": "EMERALD",
       "rank": "IV",
-      "lp": 65,
+      "lp": 45,
       "wins": 103,
-      "losses": 97,
-      "absoluteLp": 2065
+      "losses": 98,
+      "absoluteLp": 2045
     }
   },
   "lpHistory": {
@@ -2876,10 +2876,52 @@
         "queue": "FLEX",
         "t": 1788228131404,
         "live": true
+      },
+      {
+        "i": 163,
+        "lp": 2045,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "lpInDiv": 45,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": -20,
+        "win": false,
+        "queue": "FLEX",
+        "t": 1788480539541,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1621706088,
+      "queue": "FLEX",
+      "champion": "Malzahar",
+      "championId": 90,
+      "win": false,
+      "lpChange": null,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 11,
+      "deaths": 8,
+      "assists": 3,
+      "kda": 1.75,
+      "cs": 288,
+      "csPerMin": 8.5,
+      "gold": 16020,
+      "goldPerMin": 470,
+      "damage": 34284,
+      "damagePerMin": 1007,
+      "visionScore": 21,
+      "killParticipation": 54,
+      "duration": 2043,
+      "position": "MIDDLE",
+      "timestamp": 1788474319778
+    },
     {
       "matchId": 1621505491,
       "queue": "NORMAL",

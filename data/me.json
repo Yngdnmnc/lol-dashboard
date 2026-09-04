@@ -18,10 +18,10 @@
     "flex": {
       "tier": "PLATINUM",
       "rank": "II",
-      "lp": 91,
+      "lp": 71,
       "wins": 105,
-      "losses": 94,
-      "absoluteLp": 1891
+      "losses": 95,
+      "absoluteLp": 1871
     }
   },
   "lpHistory": {
@@ -3504,10 +3504,52 @@
         "queue": "FLEX",
         "t": 1788228096730,
         "live": true
+      },
+      {
+        "i": 165,
+        "lp": 1871,
+        "tier": "PLATINUM",
+        "rank": "II",
+        "lpInDiv": 71,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": -20,
+        "win": false,
+        "queue": "FLEX",
+        "t": 1788480500465,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1621706088,
+      "queue": "FLEX",
+      "champion": "Amumu",
+      "championId": 32,
+      "win": false,
+      "lpChange": null,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 2,
+      "deaths": 8,
+      "assists": 12,
+      "kda": 1.75,
+      "cs": 223,
+      "csPerMin": 6.5,
+      "gold": 12763,
+      "goldPerMin": 375,
+      "damage": 16336,
+      "damagePerMin": 480,
+      "visionScore": 24,
+      "killParticipation": 54,
+      "duration": 2043,
+      "position": "JUNGLE",
+      "timestamp": 1788474319778
+    },
     {
       "matchId": 1621505491,
       "queue": "NORMAL",
