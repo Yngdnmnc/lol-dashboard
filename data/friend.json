@@ -18,10 +18,10 @@
     "flex": {
       "tier": "EMERALD",
       "rank": "III",
-      "lp": 5,
-      "wins": 110,
+      "lp": 26,
+      "wins": 111,
       "losses": 102,
-      "absoluteLp": 2105
+      "absoluteLp": 2126
     }
   },
   "lpHistory": {
@@ -2921,10 +2921,52 @@
         "queue": "FLEX",
         "t": 1788924043726,
         "live": true
+      },
+      {
+        "i": 166,
+        "lp": 2126,
+        "tier": "EMERALD",
+        "rank": "III",
+        "lpInDiv": 26,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": 21,
+        "win": true,
+        "queue": "FLEX",
+        "t": 1789183283938,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1623477422,
+      "queue": "FLEX",
+      "champion": "Shyvana",
+      "championId": 102,
+      "win": true,
+      "lpChange": null,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 11,
+      "deaths": 7,
+      "assists": 16,
+      "kda": 3.86,
+      "cs": 244,
+      "csPerMin": 6.7,
+      "gold": 18572,
+      "goldPerMin": 509,
+      "damage": 55009,
+      "damagePerMin": 1508,
+      "visionScore": 26,
+      "killParticipation": 69,
+      "duration": 2189,
+      "position": "JUNGLE",
+      "timestamp": 1789171926649
+    },
     {
       "matchId": 1623238112,
       "queue": "FLEX",
