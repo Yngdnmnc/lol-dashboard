@@ -18,10 +18,10 @@
     "flex": {
       "tier": "EMERALD",
       "rank": "IV",
-      "lp": 0,
-      "wins": 114,
+      "lp": 21,
+      "wins": 115,
       "losses": 99,
-      "absoluteLp": 2000
+      "absoluteLp": 2021
     }
   },
   "lpHistory": {
@@ -3684,10 +3684,54 @@
         "queue": "FLEX",
         "t": 1789511965758,
         "live": true
+      },
+      {
+        "i": 174,
+        "lp": 2021,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "lpInDiv": 21,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": 21,
+        "win": true,
+        "queue": "FLEX",
+        "t": 1789684580707,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1624788460,
+      "queue": "FLEX",
+      "champion": "Galio",
+      "championId": 3,
+      "win": true,
+      "lpChange": 21,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 5,
+      "deaths": 6,
+      "assists": 16,
+      "kda": 3.5,
+      "cs": 160,
+      "csPerMin": 6.0,
+      "gold": 10722,
+      "goldPerMin": 403,
+      "damage": 19816,
+      "damagePerMin": 745,
+      "visionScore": 17,
+      "killParticipation": 43,
+      "duration": 1595,
+      "position": "MIDDLE",
+      "timestamp": 1789681959381,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1624368446,
       "queue": "FLEX",
