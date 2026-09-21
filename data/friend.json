@@ -18,10 +18,10 @@
     "flex": {
       "tier": "EMERALD",
       "rank": "III",
-      "lp": 49,
+      "lp": 30,
       "wins": 113,
-      "losses": 103,
-      "absoluteLp": 2149
+      "losses": 104,
+      "absoluteLp": 2130
     }
   },
   "lpHistory": {
@@ -3011,10 +3011,54 @@
         "queue": "FLEX",
         "t": 1789684619241,
         "live": true
+      },
+      {
+        "i": 170,
+        "lp": 2130,
+        "tier": "EMERALD",
+        "rank": "III",
+        "lpInDiv": 30,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": -19,
+        "win": false,
+        "queue": "FLEX",
+        "t": 1790031514668,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1625671784,
+      "queue": "FLEX",
+      "champion": "Jax",
+      "championId": 24,
+      "win": false,
+      "lpChange": -19,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 14,
+      "deaths": 4,
+      "assists": 1,
+      "kda": 3.75,
+      "cs": 264,
+      "csPerMin": 7.7,
+      "gold": 17880,
+      "goldPerMin": 519,
+      "damage": 25760,
+      "damagePerMin": 747,
+      "visionScore": 23,
+      "killParticipation": 62,
+      "duration": 2069,
+      "position": "JUNGLE",
+      "timestamp": 1790027688340,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1625471754,
       "queue": "SOLO",
