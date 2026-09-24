@@ -10,10 +10,10 @@
     "solo": {
       "tier": "EMERALD",
       "rank": "III",
-      "lp": 80,
+      "lp": 63,
       "wins": 39,
-      "losses": 33,
-      "absoluteLp": 2180
+      "losses": 34,
+      "absoluteLp": 2163
     },
     "flex": {
       "tier": "EMERALD",
@@ -762,6 +762,21 @@
         "win": true,
         "queue": "SOLO",
         "t": 1790134406048,
+        "live": true
+      },
+      {
+        "i": 56,
+        "lp": 2163,
+        "tier": "EMERALD",
+        "rank": "III",
+        "lpInDiv": 63,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": -17,
+        "win": false,
+        "queue": "SOLO",
+        "t": 1790211166294,
         "live": true
       }
     ],
@@ -3075,6 +3090,35 @@
     ]
   },
   "matches": [
+    {
+      "matchId": 1626109811,
+      "queue": "SOLO",
+      "champion": "Vi",
+      "championId": 254,
+      "win": false,
+      "lpChange": -17,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 8,
+      "deaths": 5,
+      "assists": 4,
+      "kda": 2.4,
+      "cs": 217,
+      "csPerMin": 6.5,
+      "gold": 13126,
+      "goldPerMin": 391,
+      "damage": 23085,
+      "damagePerMin": 688,
+      "visionScore": 38,
+      "killParticipation": 44,
+      "duration": 2013,
+      "position": "JUNGLE",
+      "timestamp": 1790207144361,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1625926452,
       "queue": "SOLO",
