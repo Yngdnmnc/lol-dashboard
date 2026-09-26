@@ -10,10 +10,10 @@
     "solo": {
       "tier": "EMERALD",
       "rank": "III",
-      "lp": 58,
+      "lp": 39,
       "wins": 42,
-      "losses": 39,
-      "absoluteLp": 2158
+      "losses": 40,
+      "absoluteLp": 2139
     },
     "flex": {
       "tier": "EMERALD",
@@ -822,6 +822,21 @@
         "win": true,
         "queue": "SOLO",
         "t": 1790377301924,
+        "live": true
+      },
+      {
+        "i": 60,
+        "lp": 2139,
+        "tier": "EMERALD",
+        "rank": "III",
+        "lpInDiv": 39,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": -19,
+        "win": false,
+        "queue": "SOLO",
+        "t": 1790386700681,
         "live": true
       }
     ],
@@ -3135,6 +3150,35 @@
     ]
   },
   "matches": [
+    {
+      "matchId": 1626504049,
+      "queue": "SOLO",
+      "champion": "Malzahar",
+      "championId": 90,
+      "win": false,
+      "lpChange": -19,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 7,
+      "deaths": 6,
+      "assists": 7,
+      "kda": 2.33,
+      "cs": 297,
+      "csPerMin": 8.9,
+      "gold": 15877,
+      "goldPerMin": 476,
+      "damage": 27727,
+      "damagePerMin": 831,
+      "visionScore": 24,
+      "killParticipation": 42,
+      "duration": 2002,
+      "position": "MIDDLE",
+      "timestamp": 1790376662332,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1626481884,
       "queue": "SOLO",
