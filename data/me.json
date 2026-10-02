@@ -18,10 +18,10 @@
     "flex": {
       "tier": "EMERALD",
       "rank": "IV",
-      "lp": 21,
+      "lp": 2,
       "wins": 115,
-      "losses": 99,
-      "absoluteLp": 2021
+      "losses": 100,
+      "absoluteLp": 2002
     }
   },
   "lpHistory": {
@@ -3699,10 +3699,54 @@
         "queue": "FLEX",
         "t": 1789684580707,
         "live": true
+      },
+      {
+        "i": 175,
+        "lp": 2002,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "lpInDiv": 2,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": -19,
+        "win": false,
+        "queue": "FLEX",
+        "t": 1790983840084,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1627980661,
+      "queue": "FLEX",
+      "champion": "Kennen",
+      "championId": 85,
+      "win": false,
+      "lpChange": -19,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 4,
+      "deaths": 7,
+      "assists": 8,
+      "kda": 1.71,
+      "cs": 117,
+      "csPerMin": 5.1,
+      "gold": 7949,
+      "goldPerMin": 349,
+      "damage": 15436,
+      "damagePerMin": 679,
+      "visionScore": 16,
+      "killParticipation": 71,
+      "duration": 1365,
+      "position": "MIDDLE",
+      "timestamp": 1790975328863,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1624788460,
       "queue": "FLEX",
