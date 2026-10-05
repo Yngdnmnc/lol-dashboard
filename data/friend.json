@@ -10,10 +10,10 @@
     "solo": {
       "tier": "EMERALD",
       "rank": "III",
-      "lp": 48,
+      "lp": 28,
       "wins": 47,
-      "losses": 45,
-      "absoluteLp": 2148
+      "losses": 46,
+      "absoluteLp": 2128
     },
     "flex": {
       "tier": "EMERALD",
@@ -912,6 +912,21 @@
         "win": false,
         "queue": "SOLO",
         "t": 1791163900609,
+        "live": true
+      },
+      {
+        "i": 66,
+        "lp": 2128,
+        "tier": "EMERALD",
+        "rank": "III",
+        "lpInDiv": 28,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": -20,
+        "win": false,
+        "queue": "SOLO",
+        "t": 1791173985063,
         "live": true
       }
     ],
@@ -3255,6 +3270,35 @@
     ]
   },
   "matches": [
+    {
+      "matchId": 1628493940,
+      "queue": "SOLO",
+      "champion": "Senna",
+      "championId": 235,
+      "win": false,
+      "lpChange": -20,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 2,
+      "deaths": 5,
+      "assists": 3,
+      "kda": 1.0,
+      "cs": 46,
+      "csPerMin": 1.7,
+      "gold": 7960,
+      "goldPerMin": 291,
+      "damage": 10369,
+      "damagePerMin": 379,
+      "visionScore": 63,
+      "killParticipation": 25,
+      "duration": 1640,
+      "position": "UTILITY",
+      "timestamp": 1791162306673,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1628477610,
       "queue": "SOLO",
