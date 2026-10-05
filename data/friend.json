@@ -10,10 +10,10 @@
     "solo": {
       "tier": "EMERALD",
       "rank": "III",
-      "lp": 68,
+      "lp": 48,
       "wins": 47,
-      "losses": 44,
-      "absoluteLp": 2168
+      "losses": 45,
+      "absoluteLp": 2148
     },
     "flex": {
       "tier": "EMERALD",
@@ -897,6 +897,21 @@
         "win": true,
         "queue": "SOLO",
         "t": 1791088451171,
+        "live": true
+      },
+      {
+        "i": 65,
+        "lp": 2148,
+        "tier": "EMERALD",
+        "rank": "III",
+        "lpInDiv": 48,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": -20,
+        "win": false,
+        "queue": "SOLO",
+        "t": 1791163900609,
         "live": true
       }
     ],
@@ -3240,6 +3255,35 @@
     ]
   },
   "matches": [
+    {
+      "matchId": 1628477610,
+      "queue": "SOLO",
+      "champion": "Smolder",
+      "championId": 901,
+      "win": false,
+      "lpChange": -20,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 10,
+      "deaths": 4,
+      "assists": 9,
+      "kda": 4.75,
+      "cs": 362,
+      "csPerMin": 8.8,
+      "gold": 19688,
+      "goldPerMin": 479,
+      "damage": 46821,
+      "damagePerMin": 1138,
+      "visionScore": 20,
+      "killParticipation": 56,
+      "duration": 2468,
+      "position": "BOTTOM",
+      "timestamp": 1791158733307,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1628278304,
       "queue": "SOLO",
