@@ -18,10 +18,10 @@
     "flex": {
       "tier": "EMERALD",
       "rank": "IV",
-      "lp": 1,
-      "wins": 117,
+      "lp": 42,
+      "wins": 119,
       "losses": 103,
-      "absoluteLp": 2001
+      "absoluteLp": 2042
     }
   },
   "lpHistory": {
@@ -3744,10 +3744,79 @@
         "queue": "FLEX",
         "t": 1791521283946,
         "live": true
+      },
+      {
+        "i": 178,
+        "lp": 2042,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "lpInDiv": 42,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": 41,
+        "win": true,
+        "queue": "FLEX",
+        "t": 1792197875980,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1631062284,
+      "queue": "FLEX",
+      "champion": "Kled",
+      "championId": 240,
+      "win": true,
+      "lpChange": null,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 8,
+      "deaths": 2,
+      "assists": 2,
+      "kda": 5.0,
+      "cs": 238,
+      "csPerMin": 8.0,
+      "gold": 13525,
+      "goldPerMin": 456,
+      "damage": 14916,
+      "damagePerMin": 503,
+      "visionScore": 28,
+      "killParticipation": 31,
+      "duration": 1779,
+      "position": "TOP",
+      "timestamp": 1792191555718
+    },
+    {
+      "matchId": 1631049951,
+      "queue": "FLEX",
+      "champion": "Kled",
+      "championId": 240,
+      "win": true,
+      "lpChange": null,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 7,
+      "deaths": 6,
+      "assists": 10,
+      "kda": 2.83,
+      "cs": 156,
+      "csPerMin": 5.1,
+      "gold": 11973,
+      "goldPerMin": 395,
+      "damage": 20211,
+      "damagePerMin": 667,
+      "visionScore": 25,
+      "killParticipation": 37,
+      "duration": 1818,
+      "position": "MIDDLE",
+      "timestamp": 1792189152968
+    },
     {
       "matchId": 1630864457,
       "queue": "FLEX",

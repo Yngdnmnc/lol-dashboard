@@ -18,10 +18,10 @@
     "flex": {
       "tier": "EMERALD",
       "rank": "III",
-      "lp": 32,
-      "wins": 117,
+      "lp": 72,
+      "wins": 119,
       "losses": 109,
-      "absoluteLp": 2132
+      "absoluteLp": 2172
     }
   },
   "lpHistory": {
@@ -3341,10 +3341,79 @@
         "queue": "FLEX",
         "t": 1791521321540,
         "live": true
+      },
+      {
+        "i": 175,
+        "lp": 2172,
+        "tier": "EMERALD",
+        "rank": "III",
+        "lpInDiv": 72,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": 40,
+        "win": true,
+        "queue": "FLEX",
+        "t": 1792197913220,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1631062284,
+      "queue": "FLEX",
+      "champion": "Zoe",
+      "championId": 142,
+      "win": true,
+      "lpChange": null,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 5,
+      "deaths": 1,
+      "assists": 12,
+      "kda": 17.0,
+      "cs": 59,
+      "csPerMin": 2.0,
+      "gold": 10531,
+      "goldPerMin": 355,
+      "damage": 15274,
+      "damagePerMin": 515,
+      "visionScore": 74,
+      "killParticipation": 53,
+      "duration": 1779,
+      "position": "UTILITY",
+      "timestamp": 1792191555718
+    },
+    {
+      "matchId": 1631049951,
+      "queue": "FLEX",
+      "champion": "Zoe",
+      "championId": 142,
+      "win": true,
+      "lpChange": null,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 3,
+      "deaths": 7,
+      "assists": 14,
+      "kda": 2.43,
+      "cs": 45,
+      "csPerMin": 1.5,
+      "gold": 10124,
+      "goldPerMin": 334,
+      "damage": 18465,
+      "damagePerMin": 609,
+      "visionScore": 66,
+      "killParticipation": 37,
+      "duration": 1818,
+      "position": "UTILITY",
+      "timestamp": 1792189152968
+    },
     {
       "matchId": 1630864457,
       "queue": "FLEX",
