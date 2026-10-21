@@ -18,10 +18,10 @@
     "flex": {
       "tier": "EMERALD",
       "rank": "III",
-      "lp": 72,
+      "lp": 52,
       "wins": 119,
-      "losses": 109,
-      "absoluteLp": 2172
+      "losses": 110,
+      "absoluteLp": 2152
     }
   },
   "lpHistory": {
@@ -3356,10 +3356,54 @@
         "queue": "FLEX",
         "t": 1792197913220,
         "live": true
+      },
+      {
+        "i": 176,
+        "lp": 2152,
+        "tier": "EMERALD",
+        "rank": "III",
+        "lpInDiv": 52,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": -20,
+        "win": false,
+        "queue": "FLEX",
+        "t": 1792545174869,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1631971378,
+      "queue": "FLEX",
+      "champion": "MissFortune",
+      "championId": 21,
+      "win": false,
+      "lpChange": -20,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 15,
+      "deaths": 10,
+      "assists": 13,
+      "kda": 2.8,
+      "cs": 307,
+      "csPerMin": 6.0,
+      "gold": 25806,
+      "goldPerMin": 505,
+      "damage": 68574,
+      "damagePerMin": 1342,
+      "visionScore": 43,
+      "killParticipation": 60,
+      "duration": 3065,
+      "position": "BOTTOM",
+      "timestamp": 1792537148175,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1631062284,
       "queue": "FLEX",
