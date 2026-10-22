@@ -18,10 +18,10 @@
     "flex": {
       "tier": "EMERALD",
       "rank": "III",
-      "lp": 52,
+      "lp": 32,
       "wins": 119,
-      "losses": 110,
-      "absoluteLp": 2152
+      "losses": 111,
+      "absoluteLp": 2132
     }
   },
   "lpHistory": {
@@ -3371,10 +3371,79 @@
         "queue": "FLEX",
         "t": 1792545174869,
         "live": true
+      },
+      {
+        "i": 177,
+        "lp": 2132,
+        "tier": "EMERALD",
+        "rank": "III",
+        "lpInDiv": 32,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": -20,
+        "win": false,
+        "queue": "FLEX",
+        "t": 1792632176101,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1632188500,
+      "queue": "FLEX",
+      "champion": "Zoe",
+      "championId": 142,
+      "win": false,
+      "lpChange": null,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 5,
+      "deaths": 5,
+      "assists": 12,
+      "kda": 3.4,
+      "cs": 54,
+      "csPerMin": 1.9,
+      "gold": 10699,
+      "goldPerMin": 385,
+      "damage": 20337,
+      "damagePerMin": 731,
+      "visionScore": 47,
+      "killParticipation": 57,
+      "duration": 1669,
+      "position": "UTILITY",
+      "timestamp": 1792623952459
+    },
+    {
+      "matchId": 1632187258,
+      "queue": "FLEX",
+      "champion": "Shyvana",
+      "championId": 102,
+      "win": true,
+      "lpChange": null,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 0,
+      "deaths": 0,
+      "assists": 0,
+      "kda": 0.0,
+      "cs": 0,
+      "csPerMin": 0.0,
+      "gold": 515,
+      "goldPerMin": 429,
+      "damage": 0,
+      "damagePerMin": 0,
+      "visionScore": 0,
+      "killParticipation": null,
+      "duration": 72,
+      "position": "JUNGLE",
+      "timestamp": 1792623488060
+    },
     {
       "matchId": 1631971378,
       "queue": "FLEX",
