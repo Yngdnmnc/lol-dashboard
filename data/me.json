@@ -18,10 +18,10 @@
     "flex": {
       "tier": "EMERALD",
       "rank": "IV",
-      "lp": 94,
+      "lp": 75,
       "wins": 125,
-      "losses": 107,
-      "absoluteLp": 2094
+      "losses": 108,
+      "absoluteLp": 2075
     }
   },
   "lpHistory": {
@@ -3894,10 +3894,54 @@
         "queue": "FLEX",
         "t": 1793575111978,
         "live": true
+      },
+      {
+        "i": 188,
+        "lp": 2075,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "lpInDiv": 75,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": -19,
+        "win": false,
+        "queue": "FLEX",
+        "t": 1793586972112,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1634712446,
+      "queue": "FLEX",
+      "champion": "Lucian",
+      "championId": 236,
+      "win": false,
+      "lpChange": -19,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 11,
+      "deaths": 8,
+      "assists": 9,
+      "kda": 2.5,
+      "cs": 253,
+      "csPerMin": 5.7,
+      "gold": 18383,
+      "goldPerMin": 417,
+      "damage": 35269,
+      "damagePerMin": 799,
+      "visionScore": 56,
+      "killParticipation": 44,
+      "duration": 2648,
+      "position": "BOTTOM",
+      "timestamp": 1793573666482,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1634704154,
       "queue": "FLEX",
