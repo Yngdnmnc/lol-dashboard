@@ -17,11 +17,11 @@
     },
     "flex": {
       "tier": "EMERALD",
-      "rank": "III",
-      "lp": 97,
-      "wins": 125,
+      "rank": "II",
+      "lp": 17,
+      "wins": 126,
       "losses": 114,
-      "absoluteLp": 2197
+      "absoluteLp": 2217
     }
   },
   "lpHistory": {
@@ -3506,10 +3506,54 @@
         "queue": "FLEX",
         "t": 1793587011628,
         "live": true
+      },
+      {
+        "i": 186,
+        "lp": 2217,
+        "tier": "EMERALD",
+        "rank": "II",
+        "lpInDiv": 17,
+        "champion": null,
+        "championId": null,
+        "matchId": null,
+        "delta": 20,
+        "win": true,
+        "queue": "FLEX",
+        "t": 1793856188677,
+        "live": true
       }
     ]
   },
   "matches": [
+    {
+      "matchId": 1635372663,
+      "queue": "FLEX",
+      "champion": "Zoe",
+      "championId": 142,
+      "win": true,
+      "lpChange": 20,
+      "lpAfter": null,
+      "tier": null,
+      "rank": null,
+      "rankLabel": null,
+      "kills": 15,
+      "deaths": 8,
+      "assists": 22,
+      "kda": 4.62,
+      "cs": 120,
+      "csPerMin": 2.8,
+      "gold": 18554,
+      "goldPerMin": 427,
+      "damage": 48008,
+      "damagePerMin": 1104,
+      "visionScore": 92,
+      "killParticipation": 70,
+      "duration": 2608,
+      "position": "UTILITY",
+      "timestamp": 1793837827752,
+      "lpReal": true,
+      "aegis": false
+    },
     {
       "matchId": 1634712446,
       "queue": "FLEX",
